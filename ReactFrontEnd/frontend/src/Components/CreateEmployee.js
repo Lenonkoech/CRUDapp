@@ -54,6 +54,7 @@ const CreateEmployee = () => {
         navigate('/employees')
     }
 
+    const isFormComplete = firstName && lastName && email;
     return (
         <div>
             <br></br>
@@ -81,7 +82,7 @@ const CreateEmployee = () => {
                                         value={email} onChange={(e) => setEmail(e.target.value)} required />
                                 </div>
 
-                                <button className="btn btn-success" type="submit" onClick={(e) => saveOrUpdateEmployee(e)}>Save</button>
+                                <button className="btn btn-success" disabled={!isFormComplete} type="submit" onClick={(e) => saveOrUpdateEmployee(e)}>Save</button>
                                 <button className="btn btn-danger" onClick={cancel} style={{ marginLeft: "10px" }}>Cancel</button>
                             </form>
                         </div>

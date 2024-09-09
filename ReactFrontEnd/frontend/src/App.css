@@ -32,7 +32,21 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(16, 15, 19);
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }

@@ -1,16 +1,20 @@
 # Simple CRUD app developed with react frontend and springboot backend
 
 ### Backend Requirements
- *install Java JVM*
- > run ```java -version ``` to check
- *install Spring*
- >  run```spring -version``` to check
- *install maven*
- > run ```mvn -version``` to check
- *install mysql and mysql-client*
-> ```mysql```
+ *install Java JVM*<br/>
+ > run ```java -version ``` to check<br/>
+ *install Spring*<br/>
+ >  run```spring -version``` to check<br/>
+ *install maven*<br/>
+ > run ```mvn -version``` to check<br/>
+ *install mysql and mysql-client*<br/>
+> ```mysql```<br/>
  ### Frontend requirements
-*install npm package*
+1. *install npm package* using ```npm install download```<br/>
+     - ```npm add axios --save```
+     - ```npm install bootstrap --save``` 
+     - ```npm install react-router-dom --save```
+
 
 ***To create project database  run mysql Server command*** <br/>
 ```create database employee_management_system```

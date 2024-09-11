@@ -6,6 +6,6 @@ spring:
   jpa:
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
+      dialect: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: update

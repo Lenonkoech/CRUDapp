@@ -24,11 +24,9 @@
 ***else if not run*** <br/>
 ```sudo service mysql start ```
 
-***Open the application.yml file in*** `src/main/java/com/target/classes`<br/>
+***Open the application.yml file in*** `src/main/java/Resources`<br/>
 > Edit it to your mysql server username and password
 
 #####  Run the springboot app executing ```mvn spring-boot:run``` under `/CRUDApp` directory
 #####  Run the React app frontend by executing ```npm start``` under `/ReactFrontEnd/frontend` directory
 
-> [!Note]
-> The .yml file might automatically get deleted by the jvm so make sure its available before running the project
